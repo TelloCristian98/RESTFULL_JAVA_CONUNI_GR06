@@ -9,7 +9,7 @@ import org.glassfish.jersey.server.ResourceConfig;
 public class RestApplication extends ResourceConfig {
     public RestApplication() {
         // Registrar clases REST y características
-        register(AlumnoResource.class);
+        register(ConversionResource.class);
         register(LoginResource.class);
         register(GenericExceptionMapper.class);
 
@@ -24,7 +24,7 @@ public class RestApplication extends ResourceConfig {
 
     private void printApiRoutes() {
         System.out.println("=== Rutas API Disponibles ===");
-        Class<?>[] resources = { AlumnoResource.class, LoginResource.class }; // Lista de clases REST
+        Class<?>[] resources = { ConversionResource.class, LoginResource.class }; // Lista de clases REST
         for (Class<?> resource : resources) {
             Path classPath = resource.getAnnotation(Path.class);
             if (classPath != null) {

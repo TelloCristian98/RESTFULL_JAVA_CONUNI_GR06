@@ -1,6 +1,8 @@
-ec\edu\monster\GenericExceptionMapper.class
-ec\edu\monster\RestApplication.class
+ec\edu\monster\model\ConversionRequest.class
 ec\edu\monster\AlumnoResource.class
 ec\edu\monster\model\Alumno.class
+ec\edu\monster\ConversionResource.class
+ec\edu\monster\GenericExceptionMapper.class
+ec\edu\monster\RestApplication.class
 ec\edu\monster\LoginResource.class
 ec\edu\monster\model\LoginRequest.class
