@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ConversionUnidades</string>
+    <string name="txt_bienvenido">Bienvenido</string>
+    <string name="txt_inicie_sesion">Inicia sesión para continuar</string>
+    <string name="txt_usuario">Usuario</string>
+    <string name="txt_contrasena">Contraseña</string>
+    <string name="btn_login">Ingresar</string>
+</resources>
